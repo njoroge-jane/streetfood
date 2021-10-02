@@ -1,11 +1,11 @@
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 50px;
 }
 #logo {
   font-size: 600%;
-color:rgb(4, 32, 6);
+color:rgb(3, 14, 3);
 }
 .logo {
   margin-top: -60px;
@@ -18,9 +18,45 @@ color:rgb(4, 32, 6);
     color: blue;
     text-decoration: underline;
   }
-  h1 {
+  .h1 {
     font-size: 40px;
     padding: 0px;
     margin-left: -35px;
     margin-top: -25px;
   }
+  .eclipse {
+    background-color:  #649549;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 400%;
+    margin-top: -500px;
+    position: absolute;
+    top: 0px;
+    margin-left: 400px;
+    z-index: -1;
+  }
+  html {
+    overflow: hidden;
+  }
+  .page1 {
+    /*background-color: #E5E5E5;*/
+  }
+  .intro {
+    height: 400px;
+    width: 400px;
+    margin-left: 40px;
+  }
+  .h1s {
+    display: flex;
+    justify-content: space-between;
+    display: ;
+  }
+  #street {
+    color: darkkhaki;
+    margin-right: -1100px;
+  }
+  #food {
+    padding-left: 10px;
+  }
+
+
