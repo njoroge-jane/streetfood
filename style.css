@@ -37,6 +37,7 @@ color:rgb(3, 14, 3);
   }
   html {
   /* overflow: hidden;*/
+  font-family: 'Poppins', sans-serif;
   }
   .page1 {
   /*background-color: #E5E5E5;*/
@@ -46,6 +47,10 @@ color:rgb(3, 14, 3);
     height: 400px;
     width: 400px;
     margin-left: 40px;
+    text-align: justify;
+    font-size: 20px;
+  padding-top: 20px;
+
   }
   .h1s {
     display: flex;
@@ -61,19 +66,22 @@ color:rgb(3, 14, 3);
   }
   .play {
   position: absolute;
-  top: 250px;
+  top: 260px;
   }
 .order {
-  height: 35px;
-  width: 150px;
+  height: 45px;
+  width: 170px;
   background-color:  #6CB840;
   text-align: center;
   padding-top: 10px;
   border-radius: 25px;
   position: relative;
-  bottom: 180px;
+  bottom: 120px;
   left: 35px;
-  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+#white {
+  color: white;
 }
 .orbit {
   height: 500px;
@@ -115,4 +123,21 @@ color:rgb(3, 14, 3);
   right: 150px;
   height: 200px;
   width: 200px;
+}
+.page2 img {
+  height: 600px;
+  width: 700px;
+}
+.eat {
+  height: 500px;
+  width: 400px;
+  float: right;
+  position: relative;
+  top: 200px;
+  font-size: 20px;
+  margin-right: 100px;
+  text-align: center;
+}
+.page2 h1 {
+  color: #EAAB1B;
 }
