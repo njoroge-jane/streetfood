@@ -48,15 +48,19 @@ color:rgb(3, 14, 3);
   }
   .h1s {
     display: flex;
-    justify-content: space-between;
-    display: ;
+   font-size: 25px;
   }
-  #street {
-    color: darkkhaki;
-    margin-right: -1100px;
+  .street {
+    color:  #6CB840;
+    padding-right: 13px;
+  
   }
-  #food {
-    padding-left: 10px;
+  .food {
+    color: #EAAB1B;
+  }
+  .play {
+  position: absolute;
+  top: 250px;
   }
 
 
