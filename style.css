@@ -1,0 +1,12 @@
+.eclipse {
+  width: 1000px;
+  height: 1000px;
+  background-color: #649549;
+  margin-left: 400px;
+  border-radius: 400%;
+}
+body {
+  background-color: #E5E5E5;
+  margin-top: -500px;
+  overflow: hidden;
+}
