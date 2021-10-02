@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
 }
-img{
-  display: inline;
+#logo {
+font-size:500%;
+color:rgb(4, 32, 6);
+text-shadow: black, 10px;
 }
