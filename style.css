@@ -15,7 +15,7 @@ color:rgb(3, 14, 3);
     text-decoration: none;
   }
   a:hover {
-    color: blue;
+    color: #EAAB1B;
     text-decoration: underline;
   }
   .h1 {
@@ -36,10 +36,11 @@ color:rgb(3, 14, 3);
     z-index: -1;
   }
   html {
-    overflow: hidden;
+  /* overflow: hidden;*/
   }
   .page1 {
     /*background-color: #E5E5E5;*/
+  
   }
   .intro {
     height: 400px;
@@ -62,5 +63,27 @@ color:rgb(3, 14, 3);
   position: absolute;
   top: 250px;
   }
-
-
+.order {
+  height: 35px;
+  width: 150px;
+  background-color:  #6CB840;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 25px;
+  position: relative;
+  bottom: 180px;
+  left: 35px;
+  color: rgb(255, 255, 255);
+}
+.orbit {
+  /*background-color: tomato;*/
+  height: 500px;
+  width: 500px;
+  border-radius: 100%;
+  border-top-style: dotted;
+  margin-left: 600px;
+  position: absolute;
+  top: 200px;
+  z-index: -1;
+  border-bottom-style: hidden;
+}
