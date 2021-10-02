@@ -39,7 +39,7 @@ color:rgb(3, 14, 3);
   /* overflow: hidden;*/
   }
   .page1 {
-    /*background-color: #E5E5E5;*/
+  /*background-color: #E5E5E5;*/
   
   }
   .intro {
@@ -76,7 +76,6 @@ color:rgb(3, 14, 3);
   color: rgb(255, 255, 255);
 }
 .orbit {
-  /*background-color: tomato;*/
   height: 500px;
   width: 500px;
   border-radius: 100%;
@@ -84,6 +83,29 @@ color:rgb(3, 14, 3);
   margin-left: 600px;
   position: absolute;
   top: 200px;
-  z-index: -1;
-  border-bottom-style: hidden;
+}
+.orbit img:first-child{
+  position: absolute;
+  left: -40px;
+  top: 150px;
+}
+.orbit img:nth-child(2) {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+.orbit img:nth-child(3) {
+  position: absolute;
+  top: -35px;
+  left: 200px;
+}
+.orbit img:nth-child(4) {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
+.orbit img:nth-child(5) {
+  position: absolute;
+  top: 200px;
+  right: -40px;
 }
