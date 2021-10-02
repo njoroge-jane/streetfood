@@ -109,3 +109,10 @@ color:rgb(3, 14, 3);
   top: 200px;
   right: -40px;
 }
+.orbit img:nth-child(6) {
+  position: absolute;
+  top: 200px;
+  right: 150px;
+  height: 200px;
+  width: 200px;
+}
