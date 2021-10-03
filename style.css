@@ -148,11 +148,145 @@ color:rgb(3, 14, 3);
   height: 170px;
   width: 200px;
 }
-.column p {
-  height: 100px;
-  width: 100px;
-  border-style: double;
-  box-sizing: border-box;
+.menu {
+  color: #6CB840;
+}
+.explore {
+  padding-bottom: -100px;
+  margin-left: -100px;
+}
+.column1 {
+  height: 150px;
+  width: 290px;
+  background-color: white;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+#p1{
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  float: right;
+  padding-top: -70px;
+  padding-right: -100px;
+}
+.column2 {
+  height: 150px;
+  width: 290px;
+  background-color: white;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+#p2{
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  float: right;
+  padding-top: -70px;
+  padding-right: -100px;
+}
+.column3 {
+  height: 150px;
+  width: 290px;
+  background-color: white;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+#p3{
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  float: right;
+  padding-top: -70px;
+  padding-right: -100px;
+}
+.row1 {
+  display: flex;
+  justify-content: space-around;
+}
+.column4 {
+  height: 150px;
+  width: 290px;
+  background-color: white;
+  flex-direction: row-reverse;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+#p4{
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  float: right;
+  padding-top: -70px;
+  padding-right: -100px;
+}
+.column5 {
+  height: 150px;
+  width: 290px;
+  background-color: white;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+#p5{
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  float: right;
+  padding-top: -70px;
+  padding-right: -100px;
+}
+.column6 {
+  height: 150px;
+  width: 290px;
+  background-color: white;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+#p6{
+  text-align: center;
+  height: 50px;
+  width: 150px;
+  float: right;
+  padding-top: -70px;
+  padding-right: -100px;
+}
+.row2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+}
+.o1 {
+ position: relative;
+ left: 5px;
+ top: 200px;
+}
+.o2{
+position: relative;
+top: 200px;
+left: 200px;
+}
+.o3 {
+position: relative;
+top: 200px;
+left: 400px;
+}
+.o4 {
+  position: relative;
+  top: 410px;
+  left: -600px;
+}
+.o5 {
+  position: relative;
+  top: 410px;
+}
+.o6 {
+  position: relative;
+  top: 410px;
+  right: 600px;
+}
+.sumb {
+  padding-top: 0px;
+  margin-top: 0px;
 }
 .page3 {
   background-color: 
@@ -242,6 +376,5 @@ color:rgb(3, 14, 3);
 display: block;
 width: 10px;
 height: 50px;
-
 }
 
