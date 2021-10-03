@@ -36,7 +36,7 @@ color:rgb(3, 14, 3);
     z-index: -1;
   }
   html {
-  /* overflow: hidden;*/
+   overflow-x:  hidden;
   font-family: 'Poppins', sans-serif;
   }
   .page1 {
@@ -140,4 +140,17 @@ color:rgb(3, 14, 3);
 }
 .page2 h1 {
   color: #EAAB1B;
+}
+.page3 img {
+  height: 170px;
+  width: 200px;
+}
+.column p {
+  height: 100px;
+  width: 100px;
+  border-style: double;
+  box-sizing: border-box;
+}
+.page3 {
+  background-color: thistle;
 }
