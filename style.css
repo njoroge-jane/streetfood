@@ -227,6 +227,7 @@ font-size: 30px;
   float: right;
   padding-top: -70px;
   padding-right: -100px;
+  margin: -20px;
 }
 .column5 {
   height: 150px;
@@ -298,6 +299,7 @@ left: 400px;
 }
 .page3 {
   background-color: #EAF3E4;
+  margin: 20px;
 }
 .special {
   height: 500px;
@@ -313,6 +315,8 @@ left: 400px;
   font-size: 20px;
   background-color: #C9ECB5;
  height: 550px;
+ margin: 20px;
+ margin-top: -20px;
   
 }
 .hot {
@@ -356,20 +360,18 @@ left: 400px;
   z-index: -1;
 }
 .page5 {
-  position: relative;
-  top: 500px;
-  left: 500px;
-  height: 300px;
-  width: 300px;
+  height: 550px;
   font-size: 20px;
-  background-color: blueviolet
+  background-color:#FFF5DD;
+  margin: 20px;
+  margin-top: -20px;
 }
 .cc {
   display: flex;
   text-align: center;
   position: relative;
-  left: 10px; 
-  padding-bottom: 0px;
+  left: 500px; 
+ 
 }
 .us {
   color: #6CB840;
@@ -380,7 +382,7 @@ left: 400px;
 .para {
   text-align: center;
   position: relative;
-  right: 70px;
+  left: 400px;
   padding-top: -15px;
   width: 400px;
 }
@@ -390,13 +392,18 @@ input {
   position: relative;
   right: 80px;
   border-radius: 20px;
+  display: block;
 }
 footer {
   position: relative;
-  top: 600px;
+  top: 50px;
   left: 400px;
 }
 button {
   width: 200px;
   height: 20px;
+}
+form {
+  position: relative;
+  left: 480px;
 }
