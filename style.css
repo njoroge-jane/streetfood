@@ -152,15 +152,23 @@ color:rgb(3, 14, 3);
   color: #6CB840;
 }
 .explore {
-  padding-bottom: -100px;
-  margin-left: -100px;
+position: relative;
+right: -500px;
+top: 40px;
+font-size: 30px;
+}
+#now {
+  position: absolute;
+  top: 190px;
+  color: white;
+  font-weight: bold;
 }
 .column1 {
   height: 150px;
   width: 290px;
   background-color: white;
   border-bottom-left-radius: 30%;
-  border-bottom-right-radius: 30%;
+  border-bottom-right-radius: 20%;
 }
 #p1{
   text-align: center;
@@ -175,7 +183,7 @@ color:rgb(3, 14, 3);
   width: 290px;
   background-color: white;
   border-bottom-left-radius: 30%;
-  border-bottom-right-radius: 30%;
+  border-bottom-right-radius: 20%;
 }
 #p2{
   text-align: center;
@@ -190,7 +198,7 @@ color:rgb(3, 14, 3);
   width: 290px;
   background-color: white;
   border-bottom-left-radius: 30%;
-  border-bottom-right-radius: 30%;
+  border-bottom-right-radius: 20%;
 }
 #p3{
   text-align: center;
@@ -210,7 +218,7 @@ color:rgb(3, 14, 3);
   background-color: white;
   flex-direction: row-reverse;
   border-bottom-left-radius: 30%;
-  border-bottom-right-radius: 30%;
+  border-bottom-right-radius: 20%;
 }
 #p4{
   text-align: center;
@@ -225,7 +233,7 @@ color:rgb(3, 14, 3);
   width: 290px;
   background-color: white;
   border-bottom-left-radius: 30%;
-  border-bottom-right-radius: 30%;
+  border-bottom-right-radius: 20%;
 }
 #p5{
   text-align: center;
@@ -240,7 +248,7 @@ color:rgb(3, 14, 3);
   width: 290px;
   background-color: white;
   border-bottom-left-radius: 30%;
-  border-bottom-right-radius: 30%;
+  border-bottom-right-radius: 20%;
 }
 #p6{
   text-align: center;
@@ -257,7 +265,7 @@ color:rgb(3, 14, 3);
 }
 .o1 {
  position: relative;
- left: 5px;
+ left: 3px;
  top: 200px;
 }
 .o2{
@@ -285,12 +293,11 @@ left: 400px;
   right: 600px;
 }
 .sumb {
-  padding-top: 0px;
-  margin-top: 0px;
+  position: relative;
+  top: -100px;
 }
 .page3 {
-  background-color: 
-  #E5E5E5;
+  background-color: #EAF3E4;
 }
 .special {
   height: 500px;
@@ -304,6 +311,9 @@ left: 400px;
 }
 .page4 {
   font-size: 20px;
+  background-color: #C9ECB5;
+ height: 550px;
+  
 }
 .hot {
   display: flex;
@@ -311,6 +321,7 @@ left: 400px;
   left: 500px;
   top: 50px;
   font-size: 20px;
+
 }
 .ht {
   padding-right: 10px;
@@ -351,6 +362,7 @@ left: 400px;
   height: 300px;
   width: 300px;
   font-size: 20px;
+  background-color: blueviolet
 }
 .cc {
   display: flex;
@@ -372,9 +384,19 @@ left: 400px;
   padding-top: -15px;
   width: 400px;
 }
-.label {
-display: block;
-width: 10px;
-height: 50px;
+input {
+  width: 400px;
+  height: 30px;
+  position: relative;
+  right: 80px;
+  border-radius: 20px;
 }
-
+footer {
+  position: relative;
+  top: 600px;
+  left: 400px;
+}
+button {
+  width: 200px;
+  height: 20px;
+}
