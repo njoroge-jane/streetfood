@@ -40,7 +40,6 @@ color:rgb(3, 14, 3);
   font-family: 'Poppins', sans-serif;
   }
   .page1 {
-  background-color: rgba(230, 230, 230, 0.719);  
   margin: 0px;
   padding: 0px;
   }
@@ -125,6 +124,9 @@ color:rgb(3, 14, 3);
   height: 200px;
   width: 200px;
 }
+.page2 {
+  padding-top: 50px;
+}
 .page2 img {
   height: 600px;
   width: 700px;
@@ -156,27 +158,29 @@ color:rgb(3, 14, 3);
   background-color: 
   #E5E5E5;
 }
-body .page4{
-background-color: hsl(98, 59%, 82%, 0.5);
-}
 .special {
   height: 500px;
-  width: 400px;
+  width: 500px;
   float: right;
-  padding-right: 200px;
+  padding-right: 100px;
   padding-top: 100px;
 }
 .special p {
   text-align: center;
+}
+.page4 {
+  font-size: 20px;
 }
 .hot {
   display: flex;
   position: relative;
   left: 500px;
   top: 50px;
+  font-size: 20px;
 }
 .ht {
   padding-right: 10px;
+  
 }
 .deals {
   color: #6CB840;
@@ -188,13 +192,56 @@ background-color: hsl(98, 59%, 82%, 0.5);
   display: flex;
   position: absolute;
   right: 830px;
-  top: 1900px;
+  top: 2000px;
   height: 500px;
 }
 .burger {
   display: flex;
   position: absolute;
   right: 650px;
-  top: 2100px;
+  top: 2200px;
   height: 350px;
 }
+.grey {
+  height: 700px;
+  width: 100%;
+  background-color: #E5E5E5;
+  position: absolute;
+  top:0px;
+  z-index: -1;
+}
+.page5 {
+  position: relative;
+  top: 500px;
+  left: 500px;
+  height: 300px;
+  width: 300px;
+  font-size: 20px;
+}
+.cc {
+  display: flex;
+  text-align: center;
+  position: relative;
+  left: 10px; 
+  padding-bottom: 0px;
+}
+.us {
+  color: #6CB840;
+}
+.contact {
+  margin-right: 10px;
+}
+.para {
+  text-align: center;
+  position: relative;
+  right: 70px;
+  padding-top: -15px;
+  width: 400px;
+}
+.label {
+display: block;
+width: 10px;
+height: 50px;
+
+}
+
