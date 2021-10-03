@@ -18,4 +18,4 @@ Email address; jwnjoroge4@gmail.com.
 
 ### Web link
 Follow the following link to the website.
-https://njoroge-jane.github.io/Streetfood/
+https://njoroge-jane.github.io/streetfood/
