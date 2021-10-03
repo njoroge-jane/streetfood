@@ -40,8 +40,9 @@ color:rgb(3, 14, 3);
   font-family: 'Poppins', sans-serif;
   }
   .page1 {
-  /*background-color: #E5E5E5;*/
-  
+  background-color: rgba(230, 230, 230, 0.719);  
+  margin: 0px;
+  padding: 0px;
   }
   .intro {
     height: 400px;
@@ -152,5 +153,48 @@ color:rgb(3, 14, 3);
   box-sizing: border-box;
 }
 .page3 {
-  background-color: thistle;
+  background-color: 
+  #E5E5E5;
+}
+body .page4{
+background-color: hsl(98, 59%, 82%, 0.5);
+}
+.special {
+  height: 500px;
+  width: 400px;
+  float: right;
+  padding-right: 200px;
+  padding-top: 100px;
+}
+.special p {
+  text-align: center;
+}
+.hot {
+  display: flex;
+  position: relative;
+  left: 500px;
+  top: 50px;
+}
+.ht {
+  padding-right: 10px;
+}
+.deals {
+  color: #6CB840;
+}
+.combo {
+  color: #6CB840;
+}
+.juice {
+  display: flex;
+  position: absolute;
+  right: 830px;
+  top: 1900px;
+  height: 500px;
+}
+.burger {
+  display: flex;
+  position: absolute;
+  right: 650px;
+  top: 2100px;
+  height: 350px;
 }
