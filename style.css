@@ -387,24 +387,61 @@ left: 400px;
   width: 400px;
 }
 input {
-  width: 400px;
-  height: 30px;
+  width: 500px;
+  height: 50px;
   position: relative;
-  right: 80px;
-  border-radius: 20px;
-  display: flex;
+  right: 110px;
+  border-radius: 30px;
+  display: block;
+  font-size: 20px;
+  color: black;
 }
 footer {
+display: flex;
+justify-content: space-between;
+background-color: #F1FAEC;
+margin: 20px;
+height: 300px;
+padding-top: 80px;
+}
+form button {
+  width: 200px;
+  height: 50px;
   position: relative;
   top: 50px;
-  left: 400px;
-}
-button {
-  width: 200px;
-  height: 20px;
-  padding: 100px;
+  left: 30px;
+  background-color: #6CB840;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+
 }
 form {
   position: relative;
   left: 480px;
+}
+.sunday {
+  border-left: dotted;
+
+}
+.follow {
+  width: 200px;
+}
+.no {
+  width: 200px;
+}
+#im {
+  height: 20px;
+  background-color: transparent;
+  display: block;
+  padding-top: 100px;
+}
+footer button {
+  width: 50px;
+  height: 30px;
+  position: relative;
+  top: 20px;
+  right: 5px;
+  background-color: #6CB840;
+  color: white;
 }
